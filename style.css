@@ -1,0 +1,127 @@
+.body{ 
+      background-image:url("image/fifa.jpg");
+	  background-size:cover;
+}
+.header{
+	  color: red;
+	  background-color: peachpuff;
+	  front-size: 4em;
+	  text-align: center;
+	  border: 10px solid lime;
+	  text-shadow: -5px 3px 4px yellow;	
+	  padding-bottom: 10px;
+	  border-radius: 5px 75px 5px 75px;
+	  front-style:italic;
+	  front-weight: bold;
+	  front-variant: small-caps;
+	  font-family: "Comic Sans MS", sans-serif;
+	}
+	
+table{
+	height: 150px;
+	color: magenta;
+	width: 100%;
+	height: 600px;
+    border-collapse: collapse; 	
+}
+
+.img{
+	box-shadow: 15px 15px 20px 10px  aqua;
+    padding: 10px;
+    background: yellow;
+}
+
+th{  
+background-color: plum;
+border: 10px deeppink solid;
+border-radius: 95px 95px 95px 95px;
+}
+
+td {
+	border: 10px orangered solid;
+	border-radius: 95px 95px 95px 95px;
+  }
+
+#c3r3{ 
+      color: white;
+	  front-style: italic;
+      background: linear-gradient(90deg, magenta , gold , mediumaquamarine);
+	  list-style:none;
+	  text-align:center;
+}
+
+span {font-size:4.5em;}
+
+.c1c2r2 {
+     font-size: 1.5em;
+     text-align: center;
+}
+.c1c2r2 a:hover {
+  color: lime;
+}
+
+/** CSS for soccer.html page */
+
+.soccerbody { 
+      background-image:url("image/sc.jpg");
+	   background-size:cover;
+ }
+ 
+.header2{ 
+       color:lime;
+	   front-size: 4em;
+       text-align: center;
+	   font-weight: bold;
+}
+
+#pic { 
+	float:right;
+	padding-top:50px;
+	padding-right:60px;
+   }
+ 
+main { 
+   float:left;
+   width:50%;
+ }
+ 
+#imgC {
+	float:right;
+	border: 5px solid red;
+    border-radius: 10px;
+    padding: 20px;
+}
+#imgC:hover {
+  box-shadow: 0 0 10px 20px magenta;
+  border-radius: 95px 95px 95px 95px;
+}
+
+ footer{
+		clear:left;
+		font-size:0.75em;
+		font-style:italic;
+ }
+ 
+ol {
+   font-size: 1.5em;
+   color: white;
+   list-style: none;
+   front-weight: bold;
+   list-style-type: upper-roman;
+   padding-top: 30px;
+}
+	
+a:link{color: dodgerblue}
+a:visited{color: dodgerblue}
+
+/** CSS for player.html page */
+
+.playerbody{ 
+      background-image:url("image/argentina.jpg");
+	  background-size:cover;
+}
+
+.playerfooter {
+	     color: white;
+  text-align: center;
+}
